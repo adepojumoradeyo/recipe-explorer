@@ -16,7 +16,7 @@ export default async function RecipesPage({ searchParams }: Props) {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Header */}
-      <section className="relative h-87.5 md:h-112.5 overflow-hidden">
+      <section className="relative h-87.5 md:h-112.5 overflow-hidden bg-black">
         <Image
           src="/images/pizza.jpg"
           alt="Delicious freshly baked pizza"
@@ -65,7 +65,7 @@ export default async function RecipesPage({ searchParams }: Props) {
             name="q"
             defaultValue={q}
             placeholder="Search for recipes..."
-            className="flex-1 border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-yellow-500"
+            className="flex-1 border text-black bg-white border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-yellow-500"
           />
 
           <button
